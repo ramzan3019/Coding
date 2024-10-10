@@ -8,6 +8,7 @@ int main()
     cout<<"Enter day: ";
     cin>>day;
 
+    int i;
 
     if(day == "monday" || day == "1")
     {
