@@ -1,10 +1,10 @@
 #include<iostream>
-#include<bits/stdc++.h>
+#include<cstlib>
 using namespace std;
 int main()
 {
-
-    int num = rand()%100+8;             //here 100 shows that the number will be between 0 and 100.
+    srand(time(0));  //her the value will be different every time.
+    int num = rand()%100;          //here 100 shows that the number will be between 0 and 100.
     cout<<"Enter your guess: ";
     int guess;
     cin>>guess;
