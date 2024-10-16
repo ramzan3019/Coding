@@ -9,18 +9,15 @@ int main()
 
     bool prime = true;
 
-    if(num==0 || num==1)
+    if(num<=1)
     {
         cout<<"Non-Prime Number"<<endl;
     }
-    else if(num<0)
-    {
-        cout<<"Non-Prime Number"<<endl;
-    }
+
     else
     {
 
-       for(int i=2; i<=num-1; i++)
+       for( int i=2; i<=num-1; i++)
     //  for(int i=2; i*i<=num; i++)                           //this trick is also useful and more efficient
        {
          if(num%i == 0)
@@ -30,7 +27,7 @@ int main()
           }
        }
 
-       if(prime == true)                                     //one way to find a prime number
+      if(prime == true)                                     //one way to find a prime number
         {
             cout<<"Prime Number";
         }
@@ -40,9 +37,6 @@ int main()
         }
 
     }
-
-
-
 
    return 0;
 }
