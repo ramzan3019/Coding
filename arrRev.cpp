@@ -14,9 +14,8 @@ int main()
     {
         cin>>arr[i];
     }
-   // for(int i=x; i+1>1; i--)
-        //or
-     for( i=x; i>0; i--)
+   
+     for( i=x-1; i>=0; i--)
     {
         cout<<arr[i]<<" ";
     }
